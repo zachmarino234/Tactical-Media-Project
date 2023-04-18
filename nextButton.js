@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "yahoo.html";
     }
     else if (getCurrentURL() === "yahoo.html") {
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     }
   });
 });
