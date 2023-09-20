@@ -11,7 +11,7 @@ var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 var position = 0;
 var image = new Image();
 
-image.src = "iLoveLinkinPark.png";
+image.src = "../assets/iLoveLinkinPark.png";
 image.classList.add("rotate");
 document.addEventListener("DOMContentLoaded", function () {
   var myContainer = document.getElementById("myContainer");
@@ -33,7 +33,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 function konami() {
-  const sound = new Audio("numbCompressed.mp3");
+  const sound = new Audio("../assets/numbCompressed.mp3");
   sound.play();
   myContainer.appendChild(image);
 }

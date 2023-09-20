@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: url("background.gif");
+    background-image: url("../assets/background.gif");
 }
 
 .nav-container {
