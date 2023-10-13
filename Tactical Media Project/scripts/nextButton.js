@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "yahoo.html";
 
     } else if (getCurrentURL() === "yahoo.html") {
-      window.location.href = "index.html";
+      window.location.href = "home.html";
 
     } else if (getCurrentURL() === "home.html") {
       window.location.href = "../../Personal Website/pages/code.html";

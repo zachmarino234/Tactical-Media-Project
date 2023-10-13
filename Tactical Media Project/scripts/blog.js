@@ -1,6 +1,6 @@
 document.addEventListener("click", function (event) {
   var image = new Image();
-  image.src = "nicetry.png";
+  image.src = "../assets/nicetry.png";
   image.style.position = "fixed";
   image.style.transform = "translate(-50%, -50%)";
   image.style.width = "250px";
@@ -12,7 +12,7 @@ document.addEventListener("click", function (event) {
 
 function placeRandomImage() {
   var image = new Image();
-  image.src = "blackBox.jpeg";
+  image.src = "../assets/blackBox.jpeg";
   image.style.position = "absolute";
   image.style.width = "50px";
   image.style.height = "50px";
