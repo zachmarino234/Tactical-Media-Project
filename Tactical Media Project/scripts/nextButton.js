@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "home.html";
 
     } else if (getCurrentURL() === "home.html") {
-      window.location.href = "../../Personal Website/pages/code.html";
+      window.location.href = "../../index.html";
     }
   });
 });
